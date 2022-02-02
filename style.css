@@ -8,18 +8,20 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 /* Add styles here! */
 
 header {
-	background-color: whitesmoke;
 	width: 100%;
 	border-bottom: 5px solid rgba(128, 128, 128, 0.8);
 }
 
 .max-width-wrapper {
-	max-width: 600px;
+	max-width: clam(300px, 600px, 1200px);
 }
 
 .intro-chunk {
@@ -42,7 +44,7 @@ main {
 }
 
 .card {
-	width: 100vw;
+	width: 100%;
 	height: fit-content;
 	background-color: whitesmoke;
 	padding-top: 5px;
