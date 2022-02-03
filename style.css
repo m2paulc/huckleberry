@@ -28,7 +28,7 @@ header {
 
 .intro-chunk {
 	max-width: 400px;
-	padding: 3rem 1rem 1rem 1rem;
+	padding: 3rem 1rem 1rem 0;
 }
 
 .title {
